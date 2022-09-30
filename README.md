@@ -65,7 +65,7 @@ This layer depends on:
 
 URI | Layers | Branch
 --- | ------ | ------
-git://git.openembedded.org/bitbake | | dunfell
+git://git.openembedded.org/bitbake | | 1.46
 git://git.openembedded.org/openembedded-core | meta | dunfell
 git://git.yoctoproject.org/meta | meta | dunfell
 git://git.openembedded.org/meta-openembedded | meta-oe | dunfell
