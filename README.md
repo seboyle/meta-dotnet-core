@@ -65,14 +65,14 @@ This layer depends on:
 
 URI | Layers | Branch
 --- | ------ | ------
-git://git.openembedded.org/bitbake | | thud
-git://git.openembedded.org/openembedded-core | meta | thud
-git://git.yoctoproject.org/meta | meta | thud
-git://git.openembedded.org/meta-openembedded | meta-oe | thud
-git://git.openembedded.org/meta-openembedded | meta-perl | thud
-git://git.openembedded.org/meta-openembedded | meta-python | thud
-git://git.openembedded.org/meta-openembedded | meta-networking | thud
-git://git.yoctoproject.org/meta-security | meta-security | thud
+git://git.openembedded.org/bitbake | | dunfell
+git://git.openembedded.org/openembedded-core | meta | dunfell
+git://git.yoctoproject.org/meta | meta | dunfell
+git://git.openembedded.org/meta-openembedded | meta-oe | dunfell
+git://git.openembedded.org/meta-openembedded | meta-perl | dunfell
+git://git.openembedded.org/meta-openembedded | meta-python | dunfell
+git://git.openembedded.org/meta-openembedded | meta-networking | dunfell
+git://git.yoctoproject.org/meta-security | meta-security | dunfell
 
 ## Patches
 Please submit any patches against this layer using pull requests in github or open up an issue.
@@ -115,7 +115,7 @@ PREFERRED_VERSION_<package name> = "<version>"
 For example:
 
 ```
-PREFERRED_VERSION_dotnet-core = "2.1.3"
+PREFERRED_VERSION_dotnet-core = "6.0.8"
 ```
 
 
